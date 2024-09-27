@@ -1,0 +1,29 @@
+/* Estilo ajustado para os cards de cliente */
+.cliente-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;  /* Reduzido para ajustar o conteúdo */
+    width: 180px;   /* Largura menor para menos conteúdo */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center; /* Centraliza o conteúdo */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .cliente-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cliente-card h3 {
+    margin: 0 0 10px;
+    color: #007bff;
+    font-size: 1.1em;  /* Tamanho um pouco menor */
+  }
+  
+  .cliente-card p {
+    margin: 5px 0;
+    font-size: 0.9em;  /* Tamanho de fonte reduzido */
+  }
+  

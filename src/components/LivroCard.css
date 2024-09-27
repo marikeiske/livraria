@@ -1,0 +1,58 @@
+.livro-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.livro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.livro-card h3 {
+  margin: 0 0 10px;
+  color: #007bff;
+}
+
+.livro-card p {
+  margin: 5px 0;
+}
+
+/* Campo de input para atualizar o estoque */
+.livro-card input {
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Estilo para o botão de atualizar estoque */
+.livro-card button {
+  padding: 10px;
+  margin-right: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.livro-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para o botão de remover livro */
+.livro-card .remover-livro {
+  background-color: #ff4d4d;
+}
+
+.livro-card .remover-livro:hover {
+  background-color: #ff1a1a;
+}
